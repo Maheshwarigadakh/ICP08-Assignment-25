@@ -8,46 +8,65 @@
 <body>
     <script>
         document.write("Practice Quesstions<br>");
-        
-        const num=4;
+        /*
+        const num=parseInt(prompt("Enter num"));
         if( num==1){
-            document.write("one")
+            document.write("one<br>");
         }
         else if (num==2){
-            document.write("two")
+            document.write("two<br>");
         }
         else if (num==3){
-            document.write("three")
+            document.write("three<br>");
         }
         else if (num==4){
-            document.write("four<br>")
+            document.write("four<br>");
         }
         else{
-            document.write("Invalid num")
+            document.write("Invalid num<br>");
         }
 
         const grade=parseInt(prompt("enter your marks"));
-        if(grade>=90 && grade==100){
-            document.write("A grade");
+        if(grade>90 && grade<100){
+            document.write("A grade<br>");
         }
         else if(grade>=80 && grade<90 ){
-            document.write("B grade");
+            document.write("B grade<br>");
         }
         else if(grade>=70 && grade<80){
-            document.write("C grade");
+            document.write("C grade<br>");
         }
         else if(grade>=60 && grade<70){
-            document.write("D grade");
+            document.write("D grade<br>");
         }
         else if(grade>=50 && grade<60){
-            document.write("F grade");
+            document.write("F grade<Br>");
         }
         else if(grade>=40 && grade<50){
-            document.write("G grade");
+            document.write("G grade<br>");
         }
         else{
-            document.write("You are fail");
+            document.write("You are fail<br>");
         }
+            
+*/
+        const per=parseInt(prompt("Enter Your Percentage"));
+        if(per>=75 && per<100){
+            document.write(`${per},First class with Distinction<br>`);
+        }
+        else if(per>=60 && per<75){
+            document.write(`${per} First class<br>`);
+        }
+        else if(per>=50 && per<60){
+            document.write(`${per} Second class<br>`);
+        }
+        else if(per>35 && per<50){
+            document.write(`${per} Third class<br>`);
+        }
+        else{
+            document.write(" You are fail<br>");
+        }
+
     </script>
     
 </body>

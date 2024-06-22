@@ -7,7 +7,8 @@
 </head>
 <body>
     <script>
-        document.write("Practice Quesstions\n");
+        document.write("Practice Quesstions<br>");
+        
         const num=4;
         if( num==1){
             document.write("one")
@@ -19,12 +20,34 @@
             document.write("three")
         }
         else if (num==4){
-            document.write("four")
+            document.write("four<br>")
         }
         else{
             document.write("Invalid num")
         }
 
+        const grade=parseInt(prompt("enter your marks"));
+        if(grade>=90 && grade==100){
+            document.write("A grade");
+        }
+        else if(grade>=80 && grade<90 ){
+            document.write("B grade");
+        }
+        else if(grade>=70 && grade<80){
+            document.write("C grade");
+        }
+        else if(grade>=60 && grade<70){
+            document.write("D grade");
+        }
+        else if(grade>=50 && grade<60){
+            document.write("F grade");
+        }
+        else if(grade>=40 && grade<50){
+            document.write("G grade");
+        }
+        else{
+            document.write("You are fail");
+        }
     </script>
     
 </body>
